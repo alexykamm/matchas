@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Matcha Vend Finland</title>
 
+<style>
+body { margin:0; font-family:Arial, Helvetica, sans-serif; background:#050505; color:white; }
+header { background:black; padding:20px 40px; display:flex; justify-content:space-between; border-bottom:2px solid #00ff88; }
+header h1 { color:#00ff88; letter-spacing:2px; }
+nav a { color:white; margin-left:20px; text-decoration:none; font-size:14px; }
+.hero { text-align:center; padding:80px 20px; background:linear-gradient(180deg,#000 0%,#061a0d 100%); }
+.hero h2 { font-size:40px; color:#00ff88; }
+.hero button { background:#00ff88; border:none; padding:14px 28px; color:black; border-radius:5px; box-shadow:0 0 15px #00ff88; cursor:pointer; }
+.machine-section { text-align:center; padding:60px 20px; }
+.machine-section img { width:280px; border-radius:10px; box-shadow:0 0 25px #00ff88; margin-top:20px; }
+.products { padding:60px 20px; background:#0b0b0b; }
+.products h2 { text-align:center; color:#00ff88; }
+.product-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:25px; max-width:1000px; margin:auto; }
+.product-card { background:#111; padding:20px; border-radius:10px; border:1px solid #00ff88; }
+.product-card h3 { color:#00ff88; }
+footer { text-align:center; padding:30px; border-top:1px solid #00ff88; margin-top:50px; font-size:14px; color:#888; }
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>MATCHA VEND FINLAND</h1>
+<nav>
+<a href="#">Etusivu</a>
+<a href="#">Juomat</a>
+<a href="#">Automaatti</a>
+<a href="#">Yhteys</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Organic Energy. Smart Vending.</h2>
+<p>Suomen moderni juoma-automaatti: luomumatcha, cold brew ja energiajuomat.</p>
+<button>Find a Machine</button>
+</section>
+
+<section class="machine-section">
+<h2>Älykäs Juoma-Automaatti</h2>
+<p>Kontaktiton maksu • Luomu • Nopea</p>
+<img src="machine-photo.jpg" alt="Matcha Vending Machine" />
+</section>
+
+<section class="products">
+<h2>Valikoimamme</h2>
+<div class="product-grid">
+
+<div class="product-card">
+<h3>🍵 Luomu Matcha</h3>
+<p>Luonnollinen ja tasainen energia.</p>
+</div>
+
+<div class="product-card">
+<h3>🧊 Cold Brew Kahvi</h3>
+<p>Pehmeä ja vahva maku.</p>
+</div>
+
+<div class="product-card">
+<h3>⚡ Energiajuomat</h3>
+<p>Nopea boost liikkeellä.</p>
+</div>
+
+<div class="product-card">
+<h3>💧 Maustettu Vesi</h3>
+<p>Raikas ja sokeriton.</p>
+</div>
+
+</div>
+</section>
+
+<footer>© 2026 Matcha Vend Finland</footer>
+
+</body>
+</html>
